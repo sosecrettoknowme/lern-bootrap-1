@@ -10,9 +10,8 @@
             height: 100vh;
         } */
         .contoh {
-            width: 250px;
+            width: 200px;
             height: 200px;
-            background-color: aquamarine;
         }
     </style>
     <title>Document</title>
@@ -20,7 +19,6 @@
 <body>
 
     <!-- Ini Untuk Mencoba membuat navbar -->
-
     <nav class="navbar navbar-expand-md navbar-dark bg-success sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -29,7 +27,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item mx-4">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
@@ -56,7 +54,8 @@
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
+    <!-- End Of Nanvbar -->
 
     <!-- Ini Untuk Mrncoba container dan grip sistem pada boostrap 5 -->
     <!-- <div class="container border border-5 lala">
@@ -75,8 +74,28 @@
             </div>
         </div> 
     </div> -->
+    <!-- End Of Container -->
 
 
+    <!-- Belajar Utilities Of Bootrap -->
+    <!-- 1. Backgorund -->
+    <div class="container contoh bg-primary mt-5">
+      <div>Ini untuk mecoba background</div>
+    </div>
+
+    <!-- 2. Border -->
+    <div class="container-fluid contoh mt-3 border border-5 border-primary rounded-circle">
+    </div>
+
+    <!-- 3. Color -->
+     <div class="container text-danger">
+        <p>Thank You Everyone</p>
+     </div>   
+    <!-- End Of Utilities -->
+    <!-- 3. Display -->
+    <div class="container">
+      <div class="d-sm-block d-md-none d-lg-inline p-2 bg-primary text-white">d-inline</div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
